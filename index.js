@@ -7,8 +7,8 @@ var PORT = process.env.PORT || 8080;
 if (!(process.env.APP_ID && process.env.APP_CERTIFICATE)) {
     throw new Error('You must define an APP_ID and APP_CERTIFICATE');
 }
-var APP_ID = "7e202fc3b7ce4758b6d3a5deea59623a";
-var APP_CERTIFICATE = "13f2270f00f9486c856153ee1cfe361a";
+var APP_ID = '7e202fc3b7ce4758b6d3a5deea59623a';
+var APP_CERTIFICATE = '13f2270f00f9486c856153ee1cfe361a';
 
 var app = express();
 
